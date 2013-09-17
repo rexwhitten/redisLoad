@@ -1,0 +1,4 @@
+﻿#Database="";Server="";Key="";Value=";
+// Queries Files (A Select Statement followed by a ; 
+select * From entities;
+select * from hst.entities;
