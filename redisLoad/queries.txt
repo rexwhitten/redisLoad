@@ -1,4 +1,4 @@
-﻿#Database="";Server="";Key="";Value=";
+﻿#Data Source=ACROWINSQL02\SQL2008;Initial Catalog=AULTecCrmDeploy;Integrated Security=True
 // Queries Files (A Select Statement followed by a ; 
-select * From entities;
-select * from hst.entities;
+select * From contacts;
+select * From users;
