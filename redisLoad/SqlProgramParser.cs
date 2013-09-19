@@ -29,6 +29,11 @@ namespace redisLoad
                         metaLines.Add(line); continue;
                     }
 
+                    if (line.StartsWith("$")) // this token reads another queries file. ex: $C:\data\query.txt
+                    {
+                        Console.WriteLine("Not implemented yet.");
+                    }
+
                     if (line.StartsWith("#"))
                     {
                         metaLines.Add(line);
